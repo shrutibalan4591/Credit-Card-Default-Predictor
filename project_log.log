@@ -1,0 +1,147 @@
+2022-09-24 18:04:53,601 - root - INFO - PROJECT STARTS RUNNING!
+2022-09-24 18:04:53,773 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+2022-09-24 18:04:54,027 - matplotlib.pyplot - DEBUG - Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+2022-09-24 18:04:55,275 - root - INFO - LIBRARIES IMPORTED
+2022-09-24 18:04:55,420 - root - INFO - DATA IMPORTED AND EXTRACTED TO DATAFRAME!
+2022-09-24 18:04:55,434 - root - INFO - DATA EXPLORATION STARTS!
+2022-09-24 18:04:55,656 - root - INFO - DATA EXPLORATION: NUMERICAL VARIABLES STARTS!
+2022-09-24 18:04:55,892 - root - INFO - DATA EXPLORATION: NUMERICAL VARIABLES: DISCRETE VARIABLES STARTS!
+2022-09-24 18:04:56,219 - matplotlib.font_manager - DEBUG - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+2022-09-24 18:04:56,222 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+2022-09-24 18:04:56,227 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+2022-09-24 18:04:56,232 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2022-09-24 18:04:56,235 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,238 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+2022-09-24 18:04:56,240 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+2022-09-24 18:04:56,243 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,245 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2022-09-24 18:04:56,248 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+2022-09-24 18:04:56,250 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2022-09-24 18:04:56,253 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,255 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+2022-09-24 18:04:56,258 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+2022-09-24 18:04:56,261 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2022-09-24 18:04:56,265 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,268 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,269 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,273 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,276 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+2022-09-24 18:04:56,279 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+2022-09-24 18:04:56,280 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+2022-09-24 18:04:56,283 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+2022-09-24 18:04:56,285 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+2022-09-24 18:04:56,287 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,289 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,291 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,293 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,295 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+2022-09-24 18:04:56,297 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,298 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,300 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,302 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,304 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+2022-09-24 18:04:56,306 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,308 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,309 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,311 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,313 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+2022-09-24 18:04:56,314 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Mono' (LiberationMono-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2022-09-24 18:04:56,316 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-BoldItalic.ttf) italic normal 700 condensed>) = 11.535
+2022-09-24 18:04:56,318 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Serif' (LiberationSerif-Regular.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,320 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Sans' (LiberationSans-Italic.ttf) italic normal 400 normal>) = 11.05
+2022-09-24 18:04:56,321 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Mono' (LiberationMono-Regular.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,323 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Serif' (LiberationSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2022-09-24 18:04:56,325 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Italic.ttf) italic normal 400 condensed>) = 11.25
+2022-09-24 18:04:56,327 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Regular.ttf) normal normal 400 condensed>) = 10.25
+2022-09-24 18:04:56,328 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Bold.ttf) normal normal 700 condensed>) = 10.535
+2022-09-24 18:04:56,330 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Serif' (LiberationSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2022-09-24 18:04:56,332 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Mono' (LiberationMono-Bold.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,334 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Sans' (LiberationSans-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2022-09-24 18:04:56,336 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Humor Sans' (Humor-Sans.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,338 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Mono' (LiberationMono-Italic.ttf) italic normal 400 normal>) = 11.05
+2022-09-24 18:04:56,340 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Serif' (LiberationSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,342 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Sans' (LiberationSans-Regular.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,343 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Sans' (LiberationSans-Bold.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,345 - matplotlib.font_manager - DEBUG - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/usr/local/lib/python3.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2022-09-24 18:04:56,414 - matplotlib.font_manager - DEBUG - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+2022-09-24 18:04:56,416 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+2022-09-24 18:04:56,417 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+2022-09-24 18:04:56,420 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2022-09-24 18:04:56,422 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,423 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+2022-09-24 18:04:56,425 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+2022-09-24 18:04:56,427 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,429 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2022-09-24 18:04:56,431 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+2022-09-24 18:04:56,432 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+2022-09-24 18:04:56,434 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,436 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+2022-09-24 18:04:56,438 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+2022-09-24 18:04:56,439 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2022-09-24 18:04:56,441 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,444 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,446 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,448 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,450 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+2022-09-24 18:04:56,451 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+2022-09-24 18:04:56,453 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+2022-09-24 18:04:56,455 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+2022-09-24 18:04:56,457 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+2022-09-24 18:04:56,459 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,460 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,462 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,463 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,465 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+2022-09-24 18:04:56,467 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,468 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,470 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,480 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,481 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+2022-09-24 18:04:56,483 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,484 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,486 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,490 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,492 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+2022-09-24 18:04:56,494 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Mono' (LiberationMono-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2022-09-24 18:04:56,498 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-BoldItalic.ttf) italic normal 700 condensed>) = 11.535
+2022-09-24 18:04:56,502 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Serif' (LiberationSerif-Regular.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,504 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Sans' (LiberationSans-Italic.ttf) italic normal 400 normal>) = 11.05
+2022-09-24 18:04:56,505 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Mono' (LiberationMono-Regular.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,509 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Serif' (LiberationSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2022-09-24 18:04:56,512 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Italic.ttf) italic normal 400 condensed>) = 11.25
+2022-09-24 18:04:56,519 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Regular.ttf) normal normal 400 condensed>) = 10.25
+2022-09-24 18:04:56,521 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Bold.ttf) normal normal 700 condensed>) = 10.535
+2022-09-24 18:04:56,522 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Serif' (LiberationSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2022-09-24 18:04:56,526 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Mono' (LiberationMono-Bold.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,530 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Sans' (LiberationSans-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+2022-09-24 18:04:56,532 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Humor Sans' (Humor-Sans.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,534 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Mono' (LiberationMono-Italic.ttf) italic normal 400 normal>) = 11.05
+2022-09-24 18:04:56,540 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Serif' (LiberationSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,541 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Sans' (LiberationSans-Regular.ttf) normal normal 400 normal>) = 10.05
+2022-09-24 18:04:56,545 - matplotlib.font_manager - DEBUG - findfont: score(<Font 'Liberation Sans' (LiberationSans-Bold.ttf) normal normal 700 normal>) = 10.335
+2022-09-24 18:04:56,547 - matplotlib.font_manager - DEBUG - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/usr/local/lib/python3.7/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2022-09-24 18:04:57,404 - root - INFO - DATA EXPLORATION: NUMERICAL VARIABLES:DISCRETE VARIABLE ENDS!
+2022-09-24 18:04:57,423 - root - INFO - DATA EXPLORATION: NUMERICAL VARIABLES: CONTINUOUS VARIABLES STARTS!
+2022-09-24 18:06:31,975 - root - INFO - DATA EXPLORATION: NUMERICAL VARIABLES: CONTINUOUS VARIABLES ENDS!
+2022-09-24 18:06:31,980 - root - INFO - DATA EXPLORATION: NUMERICAL VARIABLES ENDS!
+2022-09-24 18:06:31,998 - root - INFO - DATA EXPLORATION: CATEGORICAL VARIABLES STARTS!
+2022-09-24 18:06:38,147 - root - INFO - DATA EXPLORATION: CATEGORICAL VARIABLES ENDS!
+2022-09-24 18:06:38,257 - matplotlib.colorbar - DEBUG - locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7d9e3075d0>
+2022-09-24 18:06:38,259 - matplotlib.colorbar - DEBUG - Using auto colorbar locator on colorbar
+2022-09-24 18:06:38,262 - matplotlib.colorbar - DEBUG - locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7d9e3075d0>
+2022-09-24 18:06:38,263 - matplotlib.colorbar - DEBUG - Setting pcolormesh
+2022-09-24 18:06:41,154 - root - INFO - FEATURE ENGINEERING STARTS!
+2022-09-24 18:06:41,176 - root - INFO - HANDLING IMBALANCED DATA STARTS!
+2022-09-24 18:06:42,837 - root - INFO - HANDLING IMBALANCED DATA ENDS!
+2022-09-24 18:06:42,974 - root - INFO - ENCODING CATEGORICAL VARIABLE STARTS!
+2022-09-24 18:06:43,149 - root - INFO - ENCODING CATEGORICAL VARIABLE ENDS!
+2022-09-24 18:06:43,170 - root - INFO - MODELING STARTS!
+2022-09-24 18:06:43,333 - root - INFO - TRAIN TEST SPLIT OCCURED!
+2022-09-24 18:06:51,839 - root - INFO - MODEL FITTED ON TRAINING DATA!
+2022-09-24 18:06:53,164 - root - INFO - PREDICTED ON BOTH TRAIN AND TEST DATA
+2022-09-24 18:06:53,281 - root - INFO - EVALUATION METRICS CALCULATED
+2022-09-24 18:06:53,305 - root - INFO - TRAIN F1 SCORE=0.9993272582716654 
+ TEST F1 SCORE=0.826845833637625
+2022-09-24 18:06:53,317 - root - INFO - SAVING THE MODEL....
+2022-09-24 18:06:53,473 - root - INFO - MODEL SAVED!
+2022-09-24 18:06:53,487 - root - INFO - PROJECT RUNNING ENDS!
