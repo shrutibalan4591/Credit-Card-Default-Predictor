@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>credit details</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+</head>
+
+
+<style>
+body  
+{
+	background-image:url("https://images.pond5.com/bokeh-city-lights-blurry-photo-090867833_prevstill.jpeg");
+	background-image:url("https://c4.wallpaperflare.com/wallpaper/283/874/401/buildings-skyscrapers-night-blur-fog-mist-hd-city-lights-view-wallpaper-preview.jpg");
+	background-size:cover;
+	position:relative;
+	align-items:center;
+	justify-content:center;	
+}
+
+.predict
+{
+	color:white;	
+}
+
+.submit-button
+{
+	background-color:green;
+	border:none;
+	color:white;
+	text-align:center;
+	font-family:Tahoma;
+	font-size:16px;
+	border-radius:10px;
+	min-height:40px;
+	min-width:100px;
+}
+
+.submit-button:hover
+{
+	background-color:red;
+	transition:0.7s:
+}
+
+.submit-button:active
+{
+	background-color:yellow;
+}
+
+.result 
+{
+    margin: auto;
+    width: 35%;
+}
+</style>
+
+
+<body>
+<div class="pseudo">
+ <div class="predict">
+	<h1 style="margin: auto; width: 35%; padding: 0.5%; text-align: center;">Credit Card Defaulter Prediction</h2>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+		<fieldset style="float:left; height:450px; width:630px">
+			<!--<legend><b>Demographic data:</b></legend>-->
+			<br>
+			<label for="gender"><b>Gender</b></label>
+			<br><br>
+			<label for="education"><b>Education</b></label>
+			<br><br>
+			<label for="marital"><b>Marrital Status</b></label>
+			<br><br>
+			<label for="age"><b>Age</b></label>
+			<br>
+			<p><b>Limit Balance</b><br>
+			Amount of given credit in dollar (includes individual and family/supplementary credit)</p>
+			
+			<p><b>Repayment Status</b><br></p>
+			<br>			
+			<p><b>Bill Amounts</b> Amount of bill statements (in dollar)</p>
+			<br><br>
+			<p><b>Previous Payments</b> Amount of previous payments (in dollar)</p>				
+		</fieldset>
+		
+		
+		
+		<fieldset style="height: 450px;">
+			<!--<legend><b>Behavioral data:</b></legend>-->
+			<br>
+			
+			
+			<!--Gender-->
+			<input type="radio" id="male" name="gender" value="1" required="required" />
+			<label for="male">Male</label>
+			
+			<input type="radio" id="female" name="gender" value="2" required="required" />
+			<label for="female">Female</label>
+			<br><br>
+			
+			
+			<!--Education-->
+			<input type="radio" id="high_school" name="education" value="3" required="required"/>
+			<label for="high_school">High School</label>
+			
+			<input type="radio" id="graduate_school" name="education" value="1" required="required"/>
+			<label for="graduate_school">Graduate School</label>
+			
+			<input type="radio" id="university" name="education" value="2" required="required"/>
+			<label for="university">University</label>
+			
+			<input type="radio" id="others" name="education" value="0" required="required"/>
+			<label for="others">Others</label>
+			
+			<!--<input type="radio" id="unknown" name="education" value="5"required="required"/>
+			<label for="unknown">Unknown</label>-->
+			<br><br>
+			
+			
+			<!--Marital Status-->
+			<input type="radio" id="married" name="marriage" value="1"required="required"/>
+			<label for="married">Married</label>
+			
+			<input type="radio" id="single" name="marriage" value="2" required="required"/>
+			<label for="single">Single</label>
+			
+			<input type="radio" id="others" name="marriage" value="0" required="required"/>
+			<label for="others">Others</label>
+			<br><br>
+			
+			
+			<!--Age-->
+			<input type="number" name="age" min=18 required="required" />years old
+			<br><br>
+			
+			
+			<!--Balance Limit-->
+			<input type="number" name="limit_bal" required="required" />$
+			<br><br>
+			
+			
+			
+			<!--Repayment Status-->
+			<div style="float:left; margin-right: 1.5em;">
+				<label for="repay_status">April</label><br>
+				<!--<input name="pay_6" id="pay_6" min="-2" max="9" type="number" value="0" required>-->
+				<select name="april_rs" id="april" required>
+					<option value="-2">No Consumption</option>
+					<option value="-1">Paid Duly</option>
+					<option value="0">Revolting Credit</option>
+					<option value="1">1 Month Delay</option>
+					<option value="2">2 Months Delay</option>
+					<option value="3">3 Months Delay</option>
+					<option value="4">4 Months Delay</option>
+					<option value="5">5 Months Delay</option>
+					<option value="6">6 Months Delay</option>
+					<option value="7">7 Months Delay</option>
+					<option value="8">8 Months Delay</option>
+					<option value="9">9 Months Delay and Above</option></select>
+			</div>
+			<div style="float:left; margin-right: 1.5em;">
+				<label for="repay_status">May</label><br>
+				<!--<input name="pay_5" id="pay_5" min="-2" max="9" type="number" value="0" required>-->
+				<select name="may_rs" id="may" required>
+					<option value="-2">No Consumption</option>
+					<option value="-1">Paid Duly</option>
+					<option value="0">Revolting Credit</option>
+					<option value="1">1 Month Delay</option>
+					<option value="2">2 Months Delay</option>
+					<option value="3">3 Months Delay</option>
+					<option value="4">4 Months Delay</option>
+					<option value="5">5 Months Delay</option>
+					<option value="6">6 Months Delay</option>
+					<option value="7">7 Months Delay</option>
+					<option value="8">8 Months Delay</option>
+					<option value="9">9 Months Delay and Above</option></select>
+				
+			</div>
+			<div style="float:left; margin-right: 1.5em;">
+				<label for="repay_status">June</label><br>
+				<!--<input name="pay_4" id="pay_4" min="-2" max="9" type="number" value="0" required>-->
+				<select name="june_rs" id="june" required>
+					<option value="-2">No Consumption</option>
+					<option value="-1">Paid Duly</option>
+					<option value="0">Revolting Credit</option>
+					<option value="1">1 Month Delay</option>
+					<option value="2">2 Months Delay</option>
+					<option value="3">3 Months Delay</option>
+					<option value="4">4 Months Delay</option>
+					<option value="5">5 Months Delay</option>
+					<option value="6">6 Months Delay</option>
+					<option value="7">7 Months Delay</option>
+					<option value="8">8 Months Delay</option>
+					<option value="9">9 Months Delay and Above</option></select>
+				
+			</div>
+			<div style="float:left; margin-right: 1.5em;">
+				<label for="repay_status">July</label><br>
+				<!--<input name="pay_3" id="pay_3" min="-2" max="9" type="number" value="0" required>-->
+				<select name="july_rs" id="july" required>
+					<option value="-2">No Consumption</option>
+					<option value="-1">Paid Duly</option>
+					<option value="0">Revolting Credit</option>
+					<option value="1">1 Month Delay</option>
+					<option value="2">2 Months Delay</option>
+					<option value="3">3 Months Delay</option>
+					<option value="4">4 Months Delay</option>
+					<option value="5">5 Months Delay</option>
+					<option value="6">6 Months Delay</option>
+					<option value="7">7 Months Delay</option>
+					<option value="8">8 Months Delay</option>
+					<option value="9">9 Months Delay and Above</option></select>
+			</div>
+			<div style="float:left;margin-right: 1.5em;">
+				<label for="repay_status">August</label><br>
+				<!--<input name="pay_2" id="pay_2" min="-2" max="9" type="number" value="0" required>-->
+				<select name="august_rs" id="august" required>
+					<option value="-2">No Consumption</option>
+					<option value="-1">Paid Duly</option>
+					<option value="0">Revolting Credit</option>
+					<option value="1">1 Month Delay</option>
+					<option value="2">2 Months Delay</option>
+					<option value="3">3 Months Delay</option>
+					<option value="4">4 Months Delay</option>
+					<option value="5">5 Months Delay</option>
+					<option value="6">6 Months Delay</option>
+					<option value="7">7 Months Delay</option>
+					<option value="8">8 Months Delay</option>
+					<option value="9">9 Months Delay and Above</option></select>
+			</div>
+			<div style="float:left;">
+				<label for="repay_status">September</label><br>
+				<!--<input name="pay_0" id="pay_0" min="-2" max="9" type="number" value="0" required>-->
+				<select name="september_rs" id="september" required>
+					<option value="-2">No Consumption</option>
+					<option value="-1">Paid Duly</option>
+					<option value="0">Revolting Credit</option>
+					<option value="1">1 Month Delay</option>
+					<option value="2">2 Months Delay</option>
+					<option value="3">3 Months Delay</option>
+					<option value="4">4 Months Delay</option>
+					<option value="5">5 Months Delay</option>
+					<option value="6">6 Months Delay</option>
+					<option value="7">7 Months Delay</option>
+					<option value="8">8 Months Delay</option>
+					<option value="9">9 Months Delay and Above</option></select>
+			</div>
+			<br><br><br>
+			
+			
+			<!--Bill Amount-->
+			<div style="float:left; margin-right: 1.5em;">
+				<label for="bill_amount">April</label><br>
+				<input name="bill_amt6" id="bill_amt6" value="0" type="text" required>$
+			</div>
+			<div style="float:left; margin-right: 1.5em;">
+				<label for="bill_amount">May</label><br>
+				<input name="bill_amt5" id="bill_amt5" value="0" type="text" required>$
+			</div>
+			<div style="float:left; margin-right: 1.5em;">
+				<label for="bill_amount">June</label><br>
+				<input name="bill_amt4" id="bill_amt4" value="0" type="text" required>$
+			</div>
+			<br>
+			<br>
+			<div style="float:left; margin-right: 1.5em;">
+				<label for="bill_amount">July</label><br>
+				<input name="bill_amt3" id="bill_amt3" value="0" type="text" required>$
+			</div>
+			<div style="float:left;margin-right: 1.5em;">
+				<label for="bill_amount">August</label><br>
+				<input name="bill_amt2" id="bill_amt2" value="0" type="text" required>$
+			</div>
+			<div style="float:left;">
+				<label for="bill_amount">September</label><br>
+				<input name="bill_amt1" id="bill_amt1" value="0" type="text" required>$
+			</div>
+			<br><br><br>
+			
+			
+			<!--Previous payment-->
+			<div style="float:left; margin-right: 1.5em;">
+				<label for="previous_payments">April</label><br>
+				<input name="pay_amt6" id="pay_amt6" value="0" type="text" required>$
+			</div>
+			<div style="float:left; margin-right: 1.5em;">
+				<label for="previous_payments">May</label><br>
+				<input name="pay_amt5" id="pay_amt5" value="0" type="text" required>$
+			</div>
+			<div style="float:left; margin-right: 1.5em;">
+				<label for="previous_payments">June</label><br>
+				<input name="pay_amt4" id="pay_amt4" value="0" type="text" required>$
+			</div>
+			<br>
+			<br>
+			<div style="float:left; margin-right: 1.5em;">
+				<label for="previous_payments">July</label><br>
+				<input name="pay_amt3" id="pay_amt3" value="0" type="text" required>$
+			</div>
+			<div style="float:left; margin-right: 1.5em;">
+				<label for="previous_payments">August</label><br>
+				<input name="pay_amt2" id="pay_amt2" value="0" type="text" required>$
+			</div>
+			<div style="float:left;">
+				<label for="previous_payments">September</label><br>
+				<input name="pay_amt1" id="pay_amt1" type="text" value="0" required>$
+			</div>
+		</fieldset>
+		<br>
+		
+		
+		<!--Submit Button-->
+		<div style="text-align:center;">
+			<button type="submit" class="submit-button"><b>Predict</b></button>
+		</div>
+    </form>
+	
+	
+	<!--RESULT DISPLAY-->
+	<div class="result" align="center">
+		{% if prediction_text %}
+			<h2><p style="padding: 0.3%"><b>{{ prediction_text }}</b></p></h2>
+		{% endif %}	
+	</div>
+ </div>
+</div>
+
+</body>
+</html>
