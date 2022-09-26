@@ -103,7 +103,7 @@ def predict():
         pay_1 = [int(request.form['pay_amt1'])]
 
 
-    features = gender + education + marital_status + age + limit
+    features = gender + education + marital_status + age + bal_limit
     features = features + rs_6 + rs_5 + rs_4 + rs_3 + rs_2 + rs_1 
     features = features + bill_6 + bill_5 + bill_4 + bill_3 + bill_2 + bill_1
     features = features + pay_6 + pay_5 + pay_4 + pay_3 + pay_2 + pay_1
