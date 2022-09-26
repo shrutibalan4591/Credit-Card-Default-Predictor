@@ -322,8 +322,10 @@ body
 	
 	<!--RESULT DISPLAY-->
 	<div class="result" align="center">
-		
-			<h2><p style="padding: 0.3%"><b>{{ prediction_text }}</b></p></h2>
+		{% if prediction==1 %}
+			<h2><p style="padding: 0.3%"><b>WILL DEFAULT!</b></p></h2>
+		{% elif prediction==0 %}
+			<h2><p style="padding: 0.3%"><b>WILL NOT DEFAULT!</b></p></h2>
 			
 	</div>
  </div>
