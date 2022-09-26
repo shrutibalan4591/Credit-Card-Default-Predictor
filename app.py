@@ -112,14 +112,14 @@ def predict():
 
     prediction = model.predict(features_arr)
 
-    result = ""
-    if prediction == 1:
-      result = "This customer IS LIKELY TO DEFAULT next month."
-    else:
-      result = "This customer IS NOT LIKELY TO DEFAULT next month."
+    #result = ""
+    #if prediction == 1:
+    #  result = "This customer IS LIKELY TO DEFAULT next month."
+    #else:
+    #  result = "This customer IS NOT LIKELY TO DEFAULT next month."
 
 
-    return render_template('index.html', prediction_text=result)
+    return render_template('index.html', prediction=prediction)
 
 if __name__ == "__main__":
     app.run(debug=True)
