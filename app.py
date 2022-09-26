@@ -119,7 +119,7 @@ def predict():
       result = "This customer IS NOT LIKELY TO DEFAULT next month."
 
 
-    return render_template('index.html', prediction=result)
+    return render_template('index.html', prediction_text=result)
 
 if __name__ == "__main__":
     app.run(debug=True)
