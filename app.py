@@ -21,17 +21,17 @@ def predict():
     For rendering results on HTML GUI
     '''
     if request.method == 'POST':
-        gender = gender_encode(int(request.form['gender']))
-        education = education_encode(int(request.form['education']))
-        marital_status = marital_encode(int(request.form['marriage']))
+        #gender = gender_encode(int(request.form['gender']))
+        #education = education_encode(int(request.form['education']))
+        #marital_status = marital_encode(int(request.form['marriage']))
         age = [int(request.form['age'])]
         bal_limit = [int(request.form['limit_bal'])]
-        rs_6 = rs_encode(int(request.form['april_rs']))
-        rs_5 = rs_encode(int(request.form['may_rs']))
-        rs_4 = rs_encode(int(request.form['june_rs']))
-        rs_3 = rs_encode(int(request.form['july_rs']))
-        rs_2 = rs_encode(int(request.form['august_rs']))
-        rs_1 = rs_encode(int(request.form['september_rs']))
+        rs_6 = [int(request.form['april_rs'])]
+        rs_5 = [int(request.form['may_rs'])]
+        rs_4 = [int(request.form['june_rs'])]
+        rs_3 = [int(request.form['july_rs'])]
+        rs_2 = [int(request.form['august_rs'])]
+        rs_1 = [int(request.form['september_rs'])]
         bill_6 = [int(request.form['bill_amt6'])]
         bill_5 = [int(request.form['bill_amt5'])]
         bill_4 = [int(request.form['bill_amt4'])]
