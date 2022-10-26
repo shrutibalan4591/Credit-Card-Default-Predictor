@@ -67,8 +67,8 @@ def decompress_pickle(file):
   data = pickle.load(data)
   return data
 
-model = decompress_pickle('model.pbz2')
-#model = pickle.load(open('model.pkl', 'rb'))
+model = decompress_pickle('ccdp.pbz2')
+#model = pickle.load(open('ccdp.pkl', 'rb'))
 
 @app.route('/')
 def home():
