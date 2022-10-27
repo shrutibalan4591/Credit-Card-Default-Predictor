@@ -45,7 +45,7 @@ def predict():
         pay_2 = [int(request.form['pay_amt2'])]
         pay_1 = [int(request.form['pay_amt1'])]
 
-    bill_amt_avg = round(np.mean([bill_6, bill_5, bill_4, bill_3, bill_2, bill_1]), 2)
+    bill_amt_avg = [round(np.mean([bill_6, bill_5, bill_4, bill_3, bill_2, bill_1]), 2)]
     features = rs_1 + rs_2 + pay_1 + bill_1
     features = features + bal_limit + age + pay_2 + bill_2
     features = features + pay_3 + bill_3 + bill_4 + pay_4
