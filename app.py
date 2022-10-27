@@ -47,7 +47,7 @@ def predict():
 
     bill_amt_avg = round(np.mean([bill_6, bill_5, bill_4, bill_3, bill_2, bill_1]), 2)
     features = rs_1 + rs_2 + pay_1 + bill_1
-    features = features + limit + age + pay_2 + bill_2
+    features = features + bal_limit + age + pay_2 + bill_2
     features = features + pay_3 + bill_3 + bill_4 + pay_4
     features = features + pay_6 + bill_5 + bill_6 + bill_amt_avg
     
