@@ -33,8 +33,9 @@ the pip package, ensuring you have the latest version of pip.
 
 
 ****************************************
-## Demo
-![video](Video/credit details.webm)
+## Watch the Demo here
+[![image alt text](https://user-images.githubusercontent.com/77207245/198889458-fbcc7f7f-6026-496d-b951-cb5608b2afb0.PNG)](https://youtu.be/qoK7PvW3wsE)
+
 
 ***********************************************
 ## Technologies Used
