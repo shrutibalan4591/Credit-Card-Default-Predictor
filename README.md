@@ -34,7 +34,7 @@ the pip package, ensuring you have the latest version of pip.
 
 ****************************************
 ## Demo
-
+![video](Video/credit details.webm)
 
 ***********************************************
 ## Technologies Used
