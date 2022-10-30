@@ -2,7 +2,9 @@
 
 ## Overview
 
-This project aims at developing a classification model for the problem of predicting credit card frauds using a given labeled dataset.
+This is an end-to-end ML project, which aims at developing a classification model for the problem of predicting credit card frauds using a given labeled dataset.
+Deployed in Heroku.
+Link to the application : http://cc-defaulter-predictor.herokuapp.com/
 *****************************
 
 ## Motivation
