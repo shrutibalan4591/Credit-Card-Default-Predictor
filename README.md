@@ -29,29 +29,8 @@ the pip package, ensuring you have the latest version of pip.
 
 ## Directory Tree
 
-Credit-Card-Default-Predictor
-├── app.py
-├── ccdp.pbz2
-├── Data
-│   ├── Credit_Card_2.csv
-│   └── UCI_Credit_Card.csv
-├── Docs
-│   ├── architecture_final.pdf
-│   ├── CREDIT CARD DEFAULT PREDICTION.pdf
-│   ├── hld_final.pdf
-│   ├── lld_final.pdf
-│   └── wireframe_final.pdf
-├── ineuron_1_EDA.ipynb
-├── LICENSE
-├── Notebooks
-│   ├── ineuron_1_EDA.ipynb
-│   └── ineuron_1_Feature_Engineering_and_Modeling.ipynb
-├── Procfile
-├── project_log.log
-├── README.md
-├── requirements.txt
-└── templates
-    └── index.html
+![image](https://user-images.githubusercontent.com/77207245/198870166-2e58b35b-4b1d-4ca9-8616-d1a0c4556127.png)
+
 
 ****************************************
 ## Technologies Used
