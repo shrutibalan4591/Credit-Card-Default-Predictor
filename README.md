@@ -3,7 +3,9 @@
 ## Overview
 
 This is an end-to-end ML project, which aims at developing a classification model for the problem of predicting credit card frauds using a given labeled dataset.
+
 Deployed in Heroku.
+
 Link to the application : http://cc-defaulter-predictor.herokuapp.com/
 *****************************
 
@@ -19,6 +21,7 @@ behavioral data from the past 6 months.
 ## Dataset Information
 This dataset contains information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card holders
 from Taiwan from April 2005 to September 2005.
+
 Link : https://www.kaggle.com/uciml/defaultof-credit-cardclients-dataset
 ******************************
 
