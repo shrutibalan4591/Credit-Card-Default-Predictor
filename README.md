@@ -4,6 +4,8 @@
 
 This is an end-to-end ML project, which aims at developing a classification model for the problem of predicting credit card frauds using a given labeled dataset.
 
+The classifier used for this project is RandomForestClassifier.
+
 Deployed in Heroku.
 
 Link to the application : http://cc-defaulter-predictor.herokuapp.com/
