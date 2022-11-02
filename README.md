@@ -36,7 +36,8 @@ the pip package, ensuring you have the latest version of pip.
 
 ## Directory Tree
 
-![image](https://user-images.githubusercontent.com/77207245/198942914-1cae980d-c9db-44b3-9517-23a5d59d76f7.png)
+![image](https://user-images.githubusercontent.com/77207245/199427790-f2296505-479f-4de8-867e-4c4888357655.png)
+
 
 ****************************************
 ## Watch the Demo here
