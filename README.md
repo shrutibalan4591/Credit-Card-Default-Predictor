@@ -6,9 +6,9 @@ This is an end-to-end ML project, which aims at developing a classification mode
 
 The classifier used for this project is RandomForestClassifier.
 
-Deployed in Heroku.
+Deployed in Railway.app.
 
-Link to the application : http://cc-defaulter-predictor.herokuapp.com/
+Link to the application : https://credit-card-default.up.railway.app/
 *****************************
 
 ## Motivation
